@@ -7,7 +7,22 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+/* Стили для курсоров */
+.cursor-123 {
+  height: 1px;
+  border-left: 2px solid red;
+  }
+  
+  .cursor-321 {
+    height: 1px;
+  border-left: 2px solid blue;
+  }
+  
+  /* Стили для выделений */
+  .selection-user1 {
+  background-color: rgba(255, 0, 0, 0.3);
+  }
+  
+  .selection-user2 {
+  background-color: rgba(0, 0, 255, 0.3);
+  }
